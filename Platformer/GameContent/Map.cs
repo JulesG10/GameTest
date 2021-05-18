@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
+using System.IO;
 
 namespace Platformer.GameContent
 {
@@ -8,6 +9,8 @@ namespace Platformer.GameContent
     {
         private Tile[] tiles;
         private Vector2 winSize;
+        private Vector2 winTiles;
+        public int tileSize = 20;
 
         public Map(Vector2 windowBounds)
         {
@@ -17,26 +20,61 @@ namespace Platformer.GameContent
 
         private void SizeInit()
         {
-            int size = 16;
-           
-            int w = (int)(winSize.X/size);
-            int h = (int)(winSize.Y / size);
-            int tilesSize = w * h;
+            winTiles.X = (winSize.X/tileSize);
+            winTiles.Y = (winSize.Y / tileSize);
+            int tilesSize = (int)(winTiles.X * winTiles.Y);
 
             tiles = new Tile[tilesSize];
             
 
-            for (int row = 0; row < h; row++)
+            for (int row = 0; row < winTiles.Y; row++)
             {
-                for (int col = 0; col < w; col++)
+                for (int col = 0; col < winTiles.X; col++)
                 {
-                    int index = w * row + col;
+                    int index = (int)winTiles.X * row + col;
                     tiles[index] = new Tile();
-                    tiles[index].position = new Vector2(col * size, row * size);
+                    tiles[index].position = new Vector2(col * tileSize, row * tileSize);
+                    tiles[index].type = TileTypes.NONE;
+                    tiles[index].size = new Vector2(tileSize, tileSize);
                 }
             }
 
-            
+        }
+
+        public Tile GetTile(Vector2 position)
+        {
+            int row = (int)position.X / tileSize;
+            int col = (int)position.Y / tileSize;
+
+            int index = (int)winTiles.X * col + row;
+            if (index > -1 && index < tiles.Length)
+            {
+                return tiles[index];
+            }
+
+            Tile tile = new Tile();
+            tile.position = new Vector2(-1, -1);
+            return tile;
+        }
+
+        public void ReadMap(string path)
+        {
+            if(File.Exists(path))
+            {
+                string content = File.ReadAllText(path);
+                string[] strTiles = content.Split(',');
+                for(int i=0;i< strTiles.Length;i++)
+                {
+                    if (i > -1 && i < tiles.Length)
+                    {
+                        try
+                        {
+                            tiles[i].type = (TileTypes)int.Parse(strTiles[i]);
+                        }
+                        catch { }
+                    }
+                }
+            }
         }
 
         public void Update(GameTime gameTime)

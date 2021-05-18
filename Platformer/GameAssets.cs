@@ -11,7 +11,8 @@ namespace Platformer
 
         }
 
-        public List<Texture2D> textures = new List<Texture2D>();
+        public List<Texture2D> tiles_textures = new List<Texture2D>();
         public SpriteFont font;
+        public List<Texture2D> player_textures = new List<Texture2D>();
     }
 }

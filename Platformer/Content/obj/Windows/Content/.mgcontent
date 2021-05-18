@@ -4,28 +4,40 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/game_font.spritefont</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_00.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_01.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_02.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_03.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_04.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_05.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_06.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_07.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_08.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_09.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_10.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_11.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_12.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_13.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_14.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_15.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_16.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_17.png</File>
-    <File>C:/Users/jules/source/repos/Platformer/Platformer/Content/tile_18.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/game_font.spritefont</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/player_0.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/player_1.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/player_2.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/player_3.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/player_4.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/player_5.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_00.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_01.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_02.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_03.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_04.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_05.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_06.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_07.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_08.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_09.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_10.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_11.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_12.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_13.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_14.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_15.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_16.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_17.png</File>
+    <File>c:/Users/jules/source/repos/Platformer/Platformer/Content/tile_18.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

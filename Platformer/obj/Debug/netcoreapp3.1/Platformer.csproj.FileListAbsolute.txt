@@ -1,4 +1,3 @@
-C:\Users\jules\source\repos\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.csprojAssemblyReference.cache
 C:\Users\jules\source\repos\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.AssemblyInfoInputs.cache
 C:\Users\jules\source\repos\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.AssemblyInfo.cs
 C:\Users\jules\source\repos\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.csproj.CoreCompileInputs.cache
@@ -54,3 +53,9 @@ C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Conten
 C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Content\tile_17.xnb
 C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Content\tile_18.xnb
 C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Content\game_font.xnb
+C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Content\player_0.xnb
+C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Content\player_1.xnb
+C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Content\player_2.xnb
+C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Content\player_3.xnb
+C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Content\player_4.xnb
+C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Content\player_5.xnb

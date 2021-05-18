@@ -8,6 +8,8 @@ namespace Platformer.GameContent
 {
     class Tile : ICollisionObject
     {
+        public TileTypes type = TileTypes.NONE;
+
         public Tile()
         {
 
@@ -20,21 +22,25 @@ namespace Platformer.GameContent
             set { _position = value; }
         }
 
+        private Vector2 _size;
         public Vector2 size
         {
-            get { return new Vector2(16,16); }
-            set {  }
+            get { return _size; }
+            set { _size = value;  }
         }
 
         public void Draw(SpriteBatch graphic, GameAssets assets)
         {
-            Rectangle rect = new Rectangle();
-            rect.Width = (int)size.X;
-            rect.Height = (int)size.Y;
-            rect.X = (int)position.X;
-            rect.Y = (int)position.Y;
+            if(type != TileTypes.NONE)
+            {
+                Rectangle rect = new Rectangle();
+                rect.Width = (int)size.X;
+                rect.Height = (int)size.Y;
+                rect.X = (int)position.X;
+                rect.Y = (int)position.Y;
 
-            graphic.Draw(assets.textures[1], rect,Color.White);
+                graphic.Draw(assets.tiles_textures[(int)type], rect, Color.White);
+            }
         }
 
         public void Update(GameTime deltatime)

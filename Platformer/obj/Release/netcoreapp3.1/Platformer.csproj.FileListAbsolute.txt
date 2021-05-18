@@ -54,3 +54,9 @@ C:\Users\jules\source\repos\Platformer\Platformer\obj\Release\netcoreapp3.1\Plat
 C:\Users\jules\source\repos\Platformer\Platformer\obj\Release\netcoreapp3.1\Platformer.pdb
 C:\Users\jules\source\repos\Platformer\Platformer\obj\Release\netcoreapp3.1\Platformer.genruntimeconfig.cache
 C:\Users\jules\source\repos\Platformer\Platformer\obj\Release\netcoreapp3.1\Platformer.csprojAssemblyReference.cache
+C:\Users\jules\source\repos\Platformer\Platformer\bin\Release\netcoreapp3.1\Content\player_0.xnb
+C:\Users\jules\source\repos\Platformer\Platformer\bin\Release\netcoreapp3.1\Content\player_1.xnb
+C:\Users\jules\source\repos\Platformer\Platformer\bin\Release\netcoreapp3.1\Content\player_2.xnb
+C:\Users\jules\source\repos\Platformer\Platformer\bin\Release\netcoreapp3.1\Content\player_3.xnb
+C:\Users\jules\source\repos\Platformer\Platformer\bin\Release\netcoreapp3.1\Content\player_4.xnb
+C:\Users\jules\source\repos\Platformer\Platformer\bin\Release\netcoreapp3.1\Content\player_5.xnb

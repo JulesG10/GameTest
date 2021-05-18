@@ -21,13 +21,14 @@ namespace Platformer
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
             IsFixedTimeStep = false;
-            Window.AllowUserResizing = true;
+            
+            /*Window.AllowUserResizing = true;
             Window.AllowAltF4 = true;
             Window.ClientSizeChanged += Window_ClientSizeChanged;
-
-            player = new Player();
+            */
             assets = new GameAssets();
             map = new Map(new Vector2(Window.ClientBounds.Width, Window.ClientBounds.Height));
+            player = new Player(map);
         }
 
         private void Window_ClientSizeChanged(object sender, System.EventArgs e)
@@ -44,6 +45,7 @@ namespace Platformer
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             assets.font = Content.Load<SpriteFont>("game_font");
+            map.ReadMap(@"C:\Users\jules\OneDrive\Bureau\map.txt");
 
             for(int i=0;i <= 18; i++) 
             {
@@ -52,7 +54,12 @@ namespace Platformer
                 {
                     id = "0"+ i.ToString();
                 }
-                assets.textures.Add(this.Content.Load<Texture2D>("tile_" + id));
+                assets.tiles_textures.Add(this.Content.Load<Texture2D>("tile_" + id));
+            }
+
+            for (int i = 0; i <= 5; i++)
+            {
+                assets.player_textures.Add(this.Content.Load<Texture2D>("player_" + i.ToString()));
             }
         }
 
@@ -62,23 +69,20 @@ namespace Platformer
             {
                 Exit();
             }
-
             player.Update(gameTime);
-     
 
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Cyan);
+            GraphicsDevice.Clear(new Color(29, 172, 224));
             
             spriteBatch.Begin();
 
            
             map.Draw(spriteBatch, assets);
             player.Draw(spriteBatch, assets);
-            spriteBatch.DrawString(assets.font, ((int)(1/gameTime.ElapsedGameTime.TotalSeconds)).ToString(), new Vector2(100, 10), Color.White);
 
             spriteBatch.End();
             
