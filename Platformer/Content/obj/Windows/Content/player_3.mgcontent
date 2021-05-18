@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>c:/Users/jules/source/repos/Platformer/Platformer/Content/player_3.png</SourceFile>
+  <SourceFile>C:/Users/jules/source/repos/Platformer/Platformer/Content/player_3.png</SourceFile>
   <SourceTime>2021-05-17T18:31:54.7212016+02:00</SourceTime>
-  <DestFile>c:/Users/jules/source/repos/Platformer/Platformer/Content/bin/Windows/Content/player_3.xnb</DestFile>
-  <DestTime>2021-05-18T09:15:46.615207+02:00</DestTime>
+  <DestFile>C:/Users/jules/source/repos/Platformer/Platformer/Content/bin/Windows/Content/player_3.xnb</DestFile>
+  <DestTime>2021-05-18T09:20:36.8378299+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

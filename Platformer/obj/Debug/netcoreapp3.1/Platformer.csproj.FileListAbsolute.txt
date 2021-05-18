@@ -59,3 +59,4 @@ C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Conten
 C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Content\player_3.xnb
 C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Content\player_4.xnb
 C:\Users\jules\source\repos\Platformer\Platformer\bin\Debug\netcoreapp3.1\Content\player_5.xnb
+C:\Users\jules\source\repos\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.csprojAssemblyReference.cache

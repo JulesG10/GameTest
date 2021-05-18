@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>c:/Users/jules/source/repos/Platformer/Platformer/Content/game_font.spritefont</SourceFile>
+  <SourceFile>C:/Users/jules/source/repos/Platformer/Platformer/Content/game_font.spritefont</SourceFile>
   <SourceTime>2020-08-10T16:17:28+02:00</SourceTime>
-  <DestFile>c:/Users/jules/source/repos/Platformer/Platformer/Content/bin/Windows/Content/game_font.xnb</DestFile>
-  <DestTime>2021-05-18T09:15:46.5508716+02:00</DestTime>
+  <DestFile>C:/Users/jules/source/repos/Platformer/Platformer/Content/bin/Windows/Content/game_font.xnb</DestFile>
+  <DestTime>2021-05-18T09:20:36.8038603+02:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+02:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

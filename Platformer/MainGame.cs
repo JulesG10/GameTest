@@ -45,7 +45,7 @@ namespace Platformer
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             assets.font = Content.Load<SpriteFont>("game_font");
-            map.ReadMap(@"C:\Users\jules\OneDrive\Bureau\map.txt");
+            map.ReadMap(@"C:\Users\jules\source\repos\Platformer\Platformer\map.txt");
 
             for(int i=0;i <= 18; i++) 
             {
