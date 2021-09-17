@@ -57,6 +57,18 @@ namespace Platformer.GameContent
             return tile;
         }
 
+        public void SetTile(Vector2 position,Tile tile)
+        {
+            int row = (int)position.X / tileSize;
+            int col = (int)position.Y / tileSize;
+
+            int index = (int)winTiles.X * col + row;
+            if (index > -1 && index < tiles.Length)
+            {
+                tiles[index].type = tile.type;
+            }
+        }
+
         public void ReadMap(string path)
         {
             if(File.Exists(path))
